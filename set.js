@@ -9,7 +9,7 @@ const autoviewstatus = process.env.AUTOVIEW_STATUS || 'TRUE';
 const autolike = process.env.AUTOLIKE_STATUS || 'TRUE';
 const welcomegoodbye = process.env.WELCOMEGOODBYE || 'FALSE';
 
-const prefix = process.env.PREFIX || '.';
+const prefix = process.env.PREFIX || '';
 const appname = process.env.APP_NAME || '';
 const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'FALSE';
@@ -21,7 +21,7 @@ const antibot = process.env.ANTIBOT || 'FALSE';
 const author = process.env.STICKER_AUTHOR ||'⚜️DRAGON-AI⚜️';
 const packname = process.env.STICKER_PACKNAME || 'DRAGON-AI🗿';
 const antitag = process.env.ANTITAG || 'TRUE';
-const dev = process.env.DEV || '254754272902';
+const dev = process.env.DEV || '255744528835';
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
 const DevRaven = dev.split(",");
