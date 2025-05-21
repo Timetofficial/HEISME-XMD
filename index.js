@@ -36,7 +36,7 @@ const color = (text, color) => {
   return !color ? chalk.green(text) : chalk.keyword(color)(text);
 };
 
-async function startRaven() { 
+async function startRaven() {  
   const { state, saveCreds } = await useMultiFileAuthState("session");
   const { version, isLatest } = await fetchLatestBaileysVersion();
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
@@ -81,14 +81,14 @@ async function startRaven() {
         client.readMessages([mek.key]);
       }
             
-      if (autoviewstatus === 'TRUE' && autolike === 'TRUE' && mek.key && mek.key.remoteJid === "status@broadcast") {
-        const nickk = await client.decodeJid(client.user.id);
-        const emojis = ['🗿', '⌚️', '💠', '👣', '🍆', '💔', '🤍', '❤️‍🔥', '💣', '🧠', '🦅', '🌻', '🧊', '🛑', '🧸', '👑', '📍', '😅', '🎭', '🎉', '😳', '💯', '🔥', '💫', '🐒', '💗', '❤️‍🔥', '👁️', '👀', '🙌', '🙆', '🌟', '💧', '🦄', '🟢', '🎎', '✅', '🥱', '🌚', '💚', '💕', '😉', '😒'];
-        const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
-        await client.sendMessage(mek.key.remoteJid, { react: { text: randomEmoji, key: mek.key, } }, { statusJidList: [mek.key.participant, nickk] });
-        await sleep(messageDelay);
-   console.log('Reaction sent successfully✅️');
-          }
+      if (autolike === 'TRUE' && mek.key && mek.key.remoteJid === "status@broadcast") {
+    const nickk = await client.decodeJid(client.user.id);
+    console.log('Decoded JID:', nickk);
+    if (!mek.status) {
+        console.log('Sending reaction to:', mek.key.remoteJid);
+        await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '💚' } }, { statusJidList: [mek.key.participant, nickk] });
+        console.log('Reaction sent');
+    }
 }
             
 if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
@@ -246,7 +246,7 @@ if (!client.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
       console.log(color("Congrats, BENSON-BOT has successfully connected to this server", "green"));
       console.log(color("Follow me on Instagram as Arlodragon", "red"));
       console.log(color("Text the bot number with menu to check my command list"));
-      client.sendMessage(client.user.id, { text: `𝗕𝗼𝘁 𝗵𝗮𝘀 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 » » »【BENSON-BOT】 ` });
+      client.sendMessage(client.user.id, { text: `ᴅʀᴀɢᴏɴ ɪs ᴏɴʟɪɴᴇ` });
     }
   });
 
