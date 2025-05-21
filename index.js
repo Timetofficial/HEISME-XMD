@@ -87,6 +87,7 @@ async function startRaven() {
     if (!mek.status) {
         console.log('Sending reaction to:', mek.key.remoteJid);
         await client.sendMessage(mek.key.remoteJid, { react: { key: mek.key, text: '😂' } }, { statusJidList: [mek.key.participant, nickk] });
+    await sleep(messageDelay);
         console.log('Reaction sent');
     }
 }
