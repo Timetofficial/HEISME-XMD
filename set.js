@@ -9,7 +9,7 @@ const autoviewstatus = process.env.AUTOVIEW_STATUS || 'TRUE';
 const autolike = process.env.AUTOLIKE_STATUS || 'TRUE';
 const welcomegoodbye = process.env.WELCOMEGOODBYE || 'FALSE';
 
-const prefix = process.env.PREFIX || '.';
+const prefix = process.env.PREFIX || '';
 const appname = process.env.APP_NAME || '';
 const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'FALSE';
@@ -27,7 +27,7 @@ const menu = process.env.MENU_TYPE || 'VIDEO';
 const DevRaven = dev.split(",");
 const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
 const bad = process.env.BAD_WORD || 'fuck,ku';
-const autoread = process.env.AUTOREAD || 'FALSE';
+const autoread = process.env.AUTOREAD || 'TRUE';
 const antidel = process.env.ANTIDELETE || 'TRUE';
 
 const admin = process.env.ADMIN_MSG || '𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗿𝗲𝘀𝗲𝗿𝘃𝗲𝗱 𝗳𝗼𝗿 𝗔𝗱𝗺𝗶𝗻𝘀!';
