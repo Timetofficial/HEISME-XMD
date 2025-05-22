@@ -39,7 +39,7 @@ const wapresence = process.env.WA_PRESENCE || 'recording';
 const antilink = process.env.ANTILINK || 'TRUE';
 const mycode = process.env.CODE || '255';
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
-const port = process.env.PORT || 443;
+const port = process.env.PORT || 8000;
 const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
 
 module.exports = {
