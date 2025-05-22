@@ -13,7 +13,7 @@ const prefix = process.env.PREFIX || '';
 const appname = process.env.APP_NAME || '';
 const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'FALSE';
-const mode = process.env.MODE || 'PUBLIC';
+const mode = process.env.MODE || 'PRIVATE';
 const anticall = process.env.AUTOREJECT_CALL || 'TRUE';
 
 const botname = process.env.BOTNAME || 'Mr-heisme-AI';
@@ -39,7 +39,7 @@ const wapresence = process.env.WA_PRESENCE || 'typing, recording';
 const antilink = process.env.ANTILINK || 'TRUE';
 const mycode = process.env.CODE || '254';
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
-const port = process.env.PORT || 8083;
+const port = process.env.PORT || 1000000;
 const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
 
 module.exports = {
