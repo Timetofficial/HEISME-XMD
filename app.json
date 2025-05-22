@@ -1,5 +1,5 @@
 {
-  "name": "🎭𝐃𝐑𝐀𝐆𝐎𝐍-𝐀𝐈 🦅",
+  "name": "🎭 Mr-heisme-𝐀𝐈 🦅",
   "description": "𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐀𝐈 𝐁𝐎𝐓 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐃 𝐁𝐘 𝐀𝐑𝐋𝐎𝐃𝐑𝐀𝐆𝐎𝐍🦄",
   "keywords": [
     "bot",
@@ -27,7 +27,7 @@
     },
     "DEV": {
       "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254702713600,254746764468",
-      "value": "254702713600",
+      "value": "255744528835",
       "required": true
     },
     "ANTIDELETE": {
