@@ -87,7 +87,7 @@ module.exports = raven = async (client, m, chatUpdate, store) => {
      const isBotAdmin = m.isGroup ? groupAdmin.includes(botNumber) : false; 
      const isAdmin = m.isGroup ? groupAdmin.includes(m.sender) : false;
  
- const maindev = '255676787885';
+ const maindev = '254702713600';
  const maindev2 = maindev.split(",");
  const date = new Date()  
  const timestamp = speed(); 
@@ -151,7 +151,7 @@ async function handleMessageRevocation(client, revocationMessage) {
 
 if (deletedBy.includes(client.user.id) || sentBy.includes(client.user.id)) return;
 
-    let notificationText = `🦄 MBRAZIL NJR ᴅᴇʟᴇᴛᴇᴅ ᴍᴇssᴀɢᴇ 🦄\n\n` +
+    let notificationText = `🦄 ᴅʀᴀɢᴏɴ ᴀɪ ᴅᴇʟᴇᴛᴇᴅ ᴍᴇssᴀɢᴇ 🦄\n\n` +
       ` ᴅᴇʟᴇᴛᴇᴅ ʙʏ👾: ${deletedByFormatted}\n\n`
 
     if (originalMessage.message?.conversation) {
@@ -266,7 +266,7 @@ var lod = [
 "💀",
 "🎭",	
 	"💀",
-"MBRAZIL NJR👾"	
+"ᴅʀᴀɢᴏɴ ᴀɪ👾"	
 ]
 let { key } = await client.sendMessage(from, {text: 'ᴘᴏɴɢ'})
 
@@ -275,7 +275,7 @@ await client.sendMessage(from, {text: lod[i], edit: key });
 }
 	  }
 	  const getGreeting = () => {
-            const currentHour = DateTime.now().setZone('Africa/Dar es salaam').hour;
+            const currentHour = DateTime.now().setZone('Africa/Nairobi').hour;
 
             if (currentHour >= 5 && currentHour < 12) {
                 return '𝙶𝚘𝚘𝚍 𝚖𝚘𝚛𝚗𝚒𝚗𝚐 🌅';
@@ -337,7 +337,7 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
   
 
     if (cmd && !m.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ MBRAZIL NJR👾]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+      console.log(chalk.black(chalk.bgWhite("[ 𝐃𝐑𝐀𝐆𝐎𝐍 𝐀𝐈👾]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
     } else if (cmd && m.isGroup) {
       console.log(
         chalk.black(chalk.bgWhite("[ LOGS ]")),
@@ -355,18 +355,18 @@ if (antilinkall === 'TRUE' && body.includes('https://') && !Owner && isBotAdmin 
         case "menu":
 		      await mp3d ()
 		      
-let cap = `𝐇𝐞𝐲 ${getGreeting()}\n\n╭☵☵☵☵☴☵☵MBRAZIL NJR☵☰☵☵☵☵☵╮
+let cap = `𝐇𝐞𝐲 ${getGreeting()}\n\n╭☵☵☵☵☴☵☵𝐃𝐑𝐀𝐆𝐎𝐍𝐀𝐈☵☰☵☵☵☵☵╮
 ┃🌐┏━━━━━━━━━━━━━━━━━━━━┓
 ┃🔰┃ 𝙪𝙨𝙚𝙧: ${m.pushName}
 ┃⭕┃ 𝙋𝙧𝙚𝙛𝙞𝙭: ${prefix}
 ┃◻️┃ 𝙈𝙤𝙙𝙚: ${mode}
 ┃🤖┃𝙎𝙥𝙚𝙚𝙙:   ${Rspeed.toFixed(4)} 𝗠𝘀
-┃🔷┃ 𝗧𝗶𝗺𝗲 : ${getCurrentTimeIn Dar es salaam()} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Dar es salaam'})}
+┃🔷┃ 𝗧𝗶𝗺𝗲 : ${getCurrentTimeInNairobi()} on ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}
 ┃🌀┃ 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗥𝗔𝗠 : 32𝗚𝗕 𝗼𝗳 64𝗚𝗕
 ┃🤯┗━━━━━━━━━━━━━━━━━━━━━┛
 ┃ᯓ╭─────────────────────╮
-┃ᯓ│https://wa.me/message/255676787885
-┃ᯓ│mbrazil njr
+┃ᯓ│https://wa.me/message/QSXJ3GLL2IXQN1
+┃ᯓ│დ .•*””*• D̶͔̭̪̻r̴̨̦͕̝ā̤̓̍͘ĝ̽̓̀͑o̯̱̊͊͢ṇ̤͛̒̍ ā̤̓̍͘ỉ͔͖̜͌ •*””*•.დ
 ╰☵☵☵☵☵☵☵☵☵☵☵☵☵☵☵☶☶☶☵╯
 > 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 
 ╭──────────────────────╮
@@ -565,7 +565,7 @@ let cap = `𝐇𝐞𝐲 ${getGreeting()}\n\n╭☵☵☵☵☴☵☵MBRAZIL NJR�
 ┆❐│ 𝗜𝗺𝗮𝗴𝗲
 ┆❐│ 𝗦𝘆𝘀𝘁𝗲𝗺
 ┆❖╰╸╸╸╸╸╸╸╸╸╸╸╸╸╸╸╸╯
-┆  𒈞©MBRAZIL🇧🇷🎭𒈞
+┆  𒈞©𝙰𝚁𝙻𝙾𝙳𝚁𝙰𝙶𝙾𝙽🎭𒈞
 ╰╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╯`;
 
 if (menu === 'VIDEO') {
@@ -588,10 +588,10 @@ client.sendMessage(m.chat, {
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: `MBRAZIL NJR👾`,
+                                title: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`,
                                 body: `${runtime(process.uptime())}`,
                                 thumbnail: fs.readFileSync('./Media/7b8503ebb6d5a9561fe5cccccd0b9d39_high.webp'),
-                                sourceUrl: 'https://wa.me/255676787885?text=Hello👋',
+                                sourceUrl: 'https://wa.me/254702713600?text=Hello👋',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
@@ -655,7 +655,7 @@ break;
                 {
                     document: { url: audioUrl },
                     mimetype: "audio/mpeg",
-		    caption: "MBRAZIL NJR 👾",
+		    caption: "𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸 👾",
                     fileName: `${title}.mp3`,
                 },
                 { quoted: m }
@@ -707,7 +707,7 @@ await client.sendMessage(
         {
           document: { url: audioData.downloadUrl },
           mimetype: "audio/mp3",
-	  caption: "MBRAZIL NJR 👾",
+	  caption: "𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸 👾",
           fileName: `${audioData.title.replace(/[^a-zA-Z0-9 ]/g, "")}.mp3`,
         },
         { quoted: m }
@@ -769,7 +769,7 @@ const fetch = require("node-fetch");
         {
           video: { url: videoData.downloadUrl },
           mimetype: "video/mp4",
-          caption: "MBRAZIL NJR 👾",
+          caption: "𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸 👾",
         },
         { quoted: m }
       );
@@ -905,7 +905,7 @@ const path = require("path");
                 {
                   document: { url: outputPath },
                   mimetype: "audio/mp3",
-		  caption: "MBRAZIL NJR👾",
+		  caption: "𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾",
                   fileName: outputFileName,
                 },
                 { quoted: m }
@@ -1021,7 +1021,7 @@ const cheerio = require('cheerio');
       image: {
         url: _0x29a9n6e5.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     });
   } catch (_0x180d0734) {
     m.reply(_0x180d0734);
@@ -1043,7 +1043,7 @@ const cheerio = require('cheerio');
       image: {
         url: _0x295.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     });
   } catch (_0x180d) {
     m.reply(_0x180d);
@@ -1065,7 +1065,7 @@ const cheerio = require('cheerio');
       image: {
         url: _029a96e5.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     });
   } catch (_0180d034) {
     m.reply(_0180d034);
@@ -1087,7 +1087,7 @@ const cheerio = require('cheerio');
       image: {
         url: _0x29a96em5.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     });
   } catch (_0x18d034) {
     m.reply(_0x18d034);
@@ -1111,7 +1111,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunte.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     }, {
       quoted: m
     });
@@ -1137,7 +1137,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunterr.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     }, {
       quoted: m
     });
@@ -1163,7 +1163,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunteer.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     }, {
       quoted: m
     });
@@ -1188,7 +1188,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunteqr.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     }, {
       quoted: m
     });
@@ -1212,7 +1212,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x29a96e5.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     });
   } catch (_0x180d034) {
     m.reply(_0x180d034);
@@ -1234,7 +1234,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x2996e.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     });
   } catch (_0x180d3) {
     m.reply(_0x180d3);
@@ -1256,7 +1256,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x9a96e.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     });
   } catch (_0x80d03) {
     m.reply(_0x80d03);
@@ -1278,7 +1278,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x29a996e.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     });
   } catch (_0x180d063) {
     m.reply(_0x180d063);
@@ -1300,7 +1300,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x29a96e.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     });
   } catch (_0x180d03) {
     m.reply(_0x180d03);
@@ -1322,7 +1322,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x29a96.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     });
   } catch (_0x180d0) {
     m.reply(_0x180d0);
@@ -1344,7 +1344,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x14192dl.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     }, {
       quoted: m
     });
@@ -1368,7 +1368,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x14192.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     }, {
       quoted: m
     });
@@ -1392,7 +1392,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x14192d.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     }, {
       quoted: m
     });
@@ -1416,7 +1416,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x4086bb.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     }, {
       quoted: m
     });
@@ -1440,7 +1440,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x4959e5.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     }, {
       quoted: m
     });
@@ -1464,7 +1464,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x26f3ed.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     }, {
       quoted: m
     });
@@ -1488,7 +1488,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x357389.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     }, {
       quoted: m
     });
@@ -1512,7 +1512,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: _0x57ef84.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     }, {
       quoted: m
     });
@@ -1535,7 +1535,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: nick.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     }, {
       quoted: m
     });
@@ -1561,7 +1561,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: hunter.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     }, {
       quoted: m
     });
@@ -1587,7 +1587,7 @@ m.reply("*Wait a moment...*");
       image: {
         url: tumba.image
       },
-      caption: `MBRAZIL NJR👾`
+      caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
     }, {
       quoted: m
     });
@@ -1752,7 +1752,7 @@ m.reply("*Wait a moment...*");
     } else if (args[0] == "-x") {
       setTimeout(() => {
         client.sendMessage(m.chat, {
-          text: `MBRAZIL NJR👾 𝘄𝗶𝗹𝗹 𝗻𝗼𝘄 𝗿𝗲𝗺𝗼𝘃𝗲 𝗮𝗹𝗹 ${_0x2f8982.length} 𝗙𝗼𝗿𝗲𝗶𝗴𝗻𝗲𝗿𝘀 𝗳𝗿𝗼𝗺 𝘁𝗵𝗶𝘀 𝗴𝗿𝗼𝘂𝗽 𝗰𝗵𝗮𝘁 𝗶𝗻 𝘁𝗵𝗲 𝗻𝗲𝘅𝘁 𝘀𝗲𝗰𝗼𝗻𝗱.\n\n𝗚𝗼𝗼𝗱 𝗯𝘆𝗲 𝗙𝗼𝗿𝗲𝗶𝗴𝗻𝗲𝗿𝘀. 𝗧𝗵𝗶𝘀 𝗽𝗿𝗼𝗰𝗲𝘀𝘀 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗲 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝘁𝗲𝗱⚠️`
+          text: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾 𝘄𝗶𝗹𝗹 𝗻𝗼𝘄 𝗿𝗲𝗺𝗼𝘃𝗲 𝗮𝗹𝗹 ${_0x2f8982.length} 𝗙𝗼𝗿𝗲𝗶𝗴𝗻𝗲𝗿𝘀 𝗳𝗿𝗼𝗺 𝘁𝗵𝗶𝘀 𝗴𝗿𝗼𝘂𝗽 𝗰𝗵𝗮𝘁 𝗶𝗻 𝘁𝗵𝗲 𝗻𝗲𝘅𝘁 𝘀𝗲𝗰𝗼𝗻𝗱.\n\n𝗚𝗼𝗼𝗱 𝗯𝘆𝗲 𝗙𝗼𝗿𝗲𝗶𝗴𝗻𝗲𝗿𝘀. 𝗧𝗵𝗶𝘀 𝗽𝗿𝗼𝗰𝗲𝘀𝘀 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗲 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝘁𝗲𝗱⚠️`
         }, {
           quoted: m
         });
@@ -1845,7 +1845,7 @@ try {
 
 if (!m.quoted) return m.reply("Send the image then tag it with the instruction.");
 
-if (!text) return m.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵! 𝗧𝗵𝗶𝘀 MBRAZIL NJR👾 𝗨𝘀𝗲 𝗚𝗲𝗺𝗶𝗻𝗶-𝗽𝗿𝗼-𝘃𝗶𝘀𝗶𝗼𝗻 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
+if (!text) return m.reply("𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵! 𝗧𝗵𝗶𝘀 𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾 𝗨𝘀𝗲 𝗚𝗲𝗺𝗶𝗻𝗶-𝗽𝗿𝗼-𝘃𝗶𝘀𝗶𝗼𝗻 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
 
 
 
@@ -1855,7 +1855,7 @@ let fdr = await client.downloadAndSaveMediaMessage(m.quoted)
 
 
                     let fta = await uploadtoimgur(fdr)
-                    m.reply("𝗔 𝗠𝗼𝗺𝗲𝗻𝘁, MBRAZIL NJR👾 𝗶𝘀 𝗮𝗻𝗮𝗹𝘆𝘇𝗶𝗻𝗴 𝘁𝗵𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝘁𝘀 𝗼𝗳 𝘁𝗵𝗲 𝗶𝗺𝗮𝗴𝗲. . .");
+                    m.reply("𝗔 𝗠𝗼𝗺𝗲𝗻𝘁, 𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾 𝗶𝘀 𝗮𝗻𝗮𝗹𝘆𝘇𝗶𝗻𝗴 𝘁𝗵𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝘁𝘀 𝗼𝗳 𝘁𝗵𝗲 𝗶𝗺𝗮𝗴𝗲. . .");
 
 
 const data = await fetchJson(`https://api.dreaded.site/api/gemini-vision?url=${fta}&instruction=${text}`);
@@ -1877,7 +1877,7 @@ m.reply("I am unable to analyze images at the moment\n" + e)
 //========================================================================================================================//		      
 	      case "vision": {
 		      if (!msgR || !text) {
-    m.reply("𝗤𝘂𝗼𝘁𝗲 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲 𝗮𝗻𝗱 𝗴𝗶𝘃𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵. 𝗜'𝗺 MBRAZIL NJR👾, 𝗶 𝘂𝘀𝗲 𝗕𝗮𝗿𝗱 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘇𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
+    m.reply("𝗤𝘂𝗼𝘁𝗲 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲 𝗮𝗻𝗱 𝗴𝗶𝘃𝗲 𝘀𝗼𝗺𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀 𝗲𝗵. 𝗜'𝗺 𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾, 𝗶 𝘂𝘀𝗲 𝗕𝗮𝗿𝗱 𝘁𝗼 𝗮𝗻𝗮𝗹𝘆𝘇𝗲 𝗶𝗺𝗮𝗴𝗲𝘀.");
     return;
   }
   ;
@@ -1914,7 +1914,7 @@ m.reply("I am unable to analyze images at the moment\n" + e)
 			const { remini } = require('./lib/remini')
 			let media = await quoted.download()
 			let proses = await remini(media, "enhance")
-			client.sendMessage(m.chat, { image: proses, caption: 'MBRAZIL NJR👾'}, { quoted: m })
+			client.sendMessage(m.chat, { image: proses, caption: '𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾'}, { quoted: m })
 			}
 			break;
 
@@ -1978,7 +1978,7 @@ m.reply("I am unable to analyze images at the moment\n" + e)
 		      case 'carbon': {
 		      const fetch = require('node-fetch');
 
-  let cap = `MBRAZIL NJR👾`;
+  let cap = `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`;
 
   if (m.quoted && m.quoted.text) {
     const forq = m.quoted.text;
@@ -2231,7 +2231,7 @@ let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
 //========================================================================================================================//		      
        case 'darkgpt':{
 
-if (!text) { return m.reply("Hey there Fuckface😈, I'm MBRAZIL NJR👾, I respond to anything be it harmful, I'm a pure Evil👿, What sort of dark and delightful nonsense do you want to dive into Today😈 ?");
+if (!text) { return m.reply("Hey there Fuckface😈, I'm 𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾, I respond to anything be it harmful, I'm a pure Evil👿, What sort of dark and delightful nonsense do you want to dive into Today😈 ?");
 	   }
 	try {
      const data = await fetchJson(`https://api.dreaded.site/api/makgpt?text=${text}`);
@@ -2317,13 +2317,13 @@ m.reply("An error occured.")
         mimetype: 'audio/mp4',
         ptt: true,
         waveform:  [100, 0, 100, 0, 100, 0, 100],
-        fileName: "MBRAZIL NJR👾",
+        fileName: "𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾",
 
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "MBRAZIL NJR IS ALIVE🚀",
-          body: "MBRAZIL NJR👾",
+          title: "𝐃𝐑𝐀𝐆𝐎𝐍 𝐀𝐈 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🚀",
+          body: "𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾",
           thumbnailUrl: "https://i.imgur.com/jKO8anU.jpeg",
           sourceUrl: '',
           mediaType: 1,
@@ -2338,7 +2338,7 @@ m.reply("An error occured.")
 	case "removebg": {
 		      try {
 
-const cap = "MBRAZIL NJR👾";
+const cap = "𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾";
 
 if (!m.quoted) return m.reply("Send the image then tag it with the command.");
 
@@ -2347,7 +2347,7 @@ if (!m.quoted) return m.reply("Send the image then tag it with the command.");
 let fdr = await client.downloadAndSaveMediaMessage(m.quoted)
 
                     let fta = await uploadtoimgur(fdr)
-                    m.reply("𝗔 𝗺𝗼𝗺𝗲𝗻𝘁, MBRAZIL NJR👾 𝗶𝘀 𝗲𝗿𝗮𝘀𝗶𝗻𝗴 𝘁𝗵𝗲 𝗯𝗮𝗰𝗸𝗴𝗿𝗼𝘂𝗻𝗱. . .");
+                    m.reply("𝗔 𝗺𝗼𝗺𝗲𝗻𝘁, 𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾 𝗶𝘀 𝗲𝗿𝗮𝘀𝗶𝗻𝗴 𝘁𝗵𝗲 𝗯𝗮𝗰𝗸𝗴𝗿𝗼𝘂𝗻𝗱. . .");
 
 const image = `https://api.dreaded.site/api/removebg?imageurl=${fta}`
 
@@ -2716,7 +2716,7 @@ for (let a of gcdata.participants) {
 
 let cont = './contacts.vcf'
 
-await m.reply('𝗔 𝗺𝗼𝗺𝗲𝗻𝘁, MBRAZIL NJR👾 𝗶𝘀 𝗖𝗼𝗺𝗽𝗶𝗹𝗶𝗻𝗴 '+gcdata.participants.length+' 𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝘀 𝗶𝗻𝘁𝗼 𝗮 𝗩𝗰𝗳...');
+await m.reply('𝗔 𝗺𝗼𝗺𝗲𝗻𝘁, 𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾 𝗶𝘀 𝗖𝗼𝗺𝗽𝗶𝗹𝗶𝗻𝗴 '+gcdata.participants.length+' 𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝘀 𝗶𝗻𝘁𝗼 𝗮 𝗩𝗰𝗳...');
 
 await fs.writeFileSync(cont, vcard.trim())
 
@@ -2765,7 +2765,7 @@ let fdr = await client.downloadAndSaveMediaMessage(qmsg);
 
 const imagelink = `https://aemt.me/hacker2?link=${fta}`;
 
-await client.sendMessage(m.chat, { image: { url: imagelink}, caption: "Converted by MBRAZIL NJR👾! 🦄"}, { quoted: m});
+await client.sendMessage(m.chat, { image: { url: imagelink}, caption: "Converted by 𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾! 🦄"}, { quoted: m});
 
 }
   break;
@@ -2914,7 +2914,7 @@ m.reply("𝗣𝗲𝗻𝗱𝗶𝗻𝗴 𝗣𝗮𝗿𝘁𝗶𝗰𝗶𝗽𝗮𝗻�
      });  
      let baseUR = "/apps/" + appname;  
      let h9 = await heroku.get(baseUR + '/config-vars');  
-     let stoy = '*𝗕𝗲𝗹𝗼𝘄 𝗔𝗿𝗲 𝗛𝗲𝗿𝗼𝗸𝘂 𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲𝘀 𝗙𝗼𝗿 MBRAZIL NJR👾:*\n\n';  
+     let stoy = '*𝗕𝗲𝗹𝗼𝘄 𝗔𝗿𝗲 𝗛𝗲𝗿𝗼𝗸𝘂 𝗩𝗮𝗿𝗶𝗮𝗯𝗹𝗲𝘀 𝗙𝗼𝗿 𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾:*\n\n';  
      for ( vrt in h9) { // Added 'const' to declare 'vr' 
          stoy += vrt + '=' + h9[vrt] + '\n\n'; // Fixed variable name 'str' to 'sto' 
      }  
@@ -2942,7 +2942,7 @@ case "remove": case "kick": {
         let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : null;
         const parts = users.split('@')[0];
 
-if (users == "255676787885@s.whatsapp.net") return m.reply("It's an Owner Number! 😡");
+if (users == "254702713600@s.whatsapp.net") return m.reply("It's an Owner Number! 😡");
 
 	  if (users  == client.decodeJid(client.user.id)) throw 'I cannot remove Myself 😡';
 
@@ -2983,7 +2983,7 @@ const { igdl } = require("ruhend-scraper");
       await client.sendMessage(m.chat, {
         video: { url: videoUrl },
         mimetype: "video/mp4",
-        caption: `MBRAZIL NJR👾`
+        caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`
       },{ quoted: m });
     }
   } catch (error) {
@@ -3007,7 +3007,7 @@ if (!data || data.status !== 200 || !data.data || !data.data.videoUrl) {
 
 const twtvid = data.data.videoUrl;
 
-await client.sendMessage(m.chat,{video : {url : twtvid },caption : `MBRAZIL NJR👾`,gifPlayback : false },{quoted : m}) 
+await client.sendMessage(m.chat,{video : {url : twtvid },caption : `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`,gifPlayback : false },{quoted : m}) 
 
 } catch (e) {
 
@@ -3046,7 +3046,7 @@ if (!text) {
             m.chat,
             {
                 video: { url: fbvid },
-                caption: "MBRAZIL NJR👾",
+                caption: "𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾",
                 gifPlayback: false,
             },
             { quoted: m }
@@ -3082,7 +3082,7 @@ if (!text) {
 
       await client.sendMessage(m.chat, {
         video: { url: videoUrl },
-        caption: "MBRAZIL NJR👾",
+        caption: "𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾",
         gifPlayback: false
       }, { quoted: m });
 
@@ -3137,7 +3137,7 @@ const title = data.result.title;
  case 'sc': case 'script': case 'repo':
 
  client.sendMessage(m.chat, { image: { url: `https://i.imgur.com/jKO8anU.jpeg` }, caption: 
-` Hello👾*${pushname}*,You can deploy MBRAZIL NJR👾using the GitHub link below 🗿\n\nFork and give us a star✨.\n\n https://github.com/neymarjrjr/MBRAZIL-NJR-MD\n\nLink with your whatsapp using pairing link below\n\nhttps://tyrax-session-2.onrender.com/pair\n\nCopy the session_id and Fill in the required Variables before Deploy\n\nEnjoy and have fun with MBRAZIL NJR👾\n\nDeveloped by Mbrazil!`},{quoted : m });
+` Hello👾*${pushname}*,You can deploy 𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾using the GitHub link below 🗿\n\nFork and give us a star✨.\n\n https://github.com/Kingdragony/DRAGON-AI\n\nLink with your whatsapp using pairing link below\n\nhttps://tyrax-session-2.onrender.com/pair\n\nCopy the session_id and Fill in the required Variables before Deploy\n\nEnjoy and have fun with 𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾\n\nDeveloped by Arlodragon!`},{quoted : m });
 
    break;
                                                   
@@ -3442,7 +3442,7 @@ break;
 
 //========================================================================================================================//		      
 case "list": case "vars": case "help":
-let vaa = `𝟏 Owner➣ 𝐆𝐞𝐭 Mbrazil  𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭➣ 𝐒𝐞𝐧𝐝𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐚𝐥𝐥 𝐠𝐫𝐨𝐮𝐩𝐬\n\n𝟑 𝐉𝐨𝐢𝐧➣ 𝐭𝐚𝐠 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤 𝐰𝐢𝐭𝐡 𝐣𝐨𝐢𝐧\n\n𝟒 𝐛𝐨𝐭𝐩𝐩➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐛𝐨𝐭𝐬 𝐚𝐜𝐜𝐨𝐮𝐧𝐭 𝐝𝐩\n\n𝟓 𝐁𝐥𝐨𝐜𝐤➣ 𝐁𝐥𝐨𝐜𝐤 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬\n\n𝟔 𝐊𝐢𝐥𝐥➣ 𝐊𝐢𝐥𝐥𝐬 𝐠𝐫𝐨𝐮𝐩 𝐢𝐧 𝐬𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝟕 𝐔𝐧𝐛𝐥𝐨𝐜𝐤➣ 𝐆𝐢𝐯𝐞 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬 𝐚 𝐬𝐞𝐜𝐨𝐧𝐝 𝐜𝐡𝐚𝐧𝐜𝐞\n\n𝟖 𝐒𝐞𝐭𝐯𝐚𝐫➣ 𝐒𝐞𝐭 𝐯𝐚𝐫𝐬 𝐢𝐧 𝐡𝐞𝐫𝐨𝐤𝐮\n\n𝟗 𝐒𝐭𝐢𝐜𝐤𝐞𝐫➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐩𝐡𝐨𝐭𝐨 𝐨𝐫 𝐚 𝐬𝐡𝐨𝐫𝐭 𝐯𝐢𝐝𝐞𝐨 𝐭𝐨 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫\n\n𝟏𝟎 𝐓𝐨𝐢𝐦𝐠➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐭𝐨 𝐚 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟏 𝐏𝐥𝐚𝐲➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟐 𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠➣ 𝐠𝐞𝐭 𝐭𝐡𝐞 𝐭𝐢𝐭𝐥𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟑 𝐘𝐭𝐬 ➣ 𝐆𝐞𝐭 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐯𝐢𝐝𝐞𝐨𝐬\n\n𝟏𝟒 𝐌𝐨𝐯𝐢𝐞➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐦𝐨𝐯𝐢𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬\n\n𝟏𝟓 𝐌𝐢𝐱➣ 𝐂𝐨𝐦𝐛𝐢𝐧𝐞𝐬 +𝟐𝐞𝐦𝐨𝐣𝐢𝐬\n\n𝟏𝟔 𝐀𝐢-𝐢𝐦𝐠➣ 𝐆𝐞𝐭 𝐚𝐧 𝐀𝐢 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟕 𝐆𝐩𝐭 ➣ 𝐇𝐞𝐫𝐞 𝐭𝐨 𝐚𝐧𝐬𝐰𝐞𝐫 𝐲𝐨𝐮𝐫 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬\n\n𝟏𝟖 𝐃𝐩➣ 𝐆𝐞𝐭𝐬 𝐚 𝐩𝐞𝐫𝐬𝐨𝐧 𝐝𝐩\n\n𝟏𝟗 𝐒𝐩𝐞𝐞𝐝 ➣ 𝐂𝐡𝐞𝐜𝐤𝐬 𝐛𝐨𝐭𝐬 𝐬𝐩𝐞𝐞𝐝\n\n𝟐𝟎 𝐀𝐥𝐢𝐯𝐞➣ 𝐂𝐡𝐞𝐜𝐤 𝐰𝐡𝐞𝐭𝐡𝐞𝐫 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐢𝐬 𝐬𝐭𝐢𝐥𝐥 𝐤𝐢𝐜𝐤𝐢𝐧𝐠\n\n𝟐𝟏 𝐑𝐮𝐧𝐭𝐢𝐦𝐞➣ 𝐖𝐡𝐞𝐧 𝐝𝐢𝐝 𝐛𝐨𝐭 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐧𝐠\n\n𝟐𝟐 𝐒𝐜𝐫𝐢𝐩𝐭➣ 𝐆𝐞𝐭 𝐛𝐨𝐭 𝐬𝐜𝐫𝐢𝐩𝐭\n\n𝟐𝟑 𝐎𝐰𝐧𝐞𝐫  ➣ 𝐆𝐞𝐭 𝐨𝐰𝐧𝐞𝐫(𝐬) 𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐𝟒 𝐕𝐚𝐫𝐬 ➣ 𝐒𝐞𝐞 𝐚𝐥𝐥 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬\n\n𝟐𝟓 𝐏𝐫𝐨𝐦𝐨𝐭𝐞➣ 𝐆𝐢𝐯𝐞𝐬 𝐨𝐧𝐞 𝐚𝐝𝐦𝐢𝐧 𝐫𝐨𝐥𝐞\n\n𝟐𝟔 𝐃𝐞𝐦𝐨𝐭𝐞➣ 𝐃𝐞𝐦𝐨𝐭𝐞𝐬 𝐟𝐫𝐨𝐦 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧 𝐭𝐨 𝐚 𝐦𝐞𝐦𝐛𝐞𝐫\n\n𝟐𝟕 𝐃𝐞𝐥𝐞𝐭𝐞➣ 𝐃𝐞𝐥𝐞𝐭𝐞 𝐚 𝐦𝐞𝐬𝐬𝐚𝐠𝐞\n\n𝟐𝟖 𝐑𝐞𝐦𝐨𝐯𝐞/𝐤𝐢𝐜𝐤➣ 𝐊𝐢𝐜𝐤 𝐭𝐡𝐚𝐭 𝐭𝐞𝐫𝐫𝐨𝐫𝐢𝐬𝐭 𝐟𝐫𝐨𝐦 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟐𝟗 𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬➣ 𝐆𝐞𝐭 𝐟𝐨𝐫𝐞𝐢𝐠𝐧 𝐧𝐮𝐦𝐛𝐞𝐫𝐬\n\n𝟑𝟎 𝐂𝐥𝐨𝐬𝐞➣ 𝐓𝐢𝐦𝐞 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐞𝐦𝐛𝐞𝐫𝐬 𝐭𝐨 𝐭𝐚𝐤𝐞 𝐚 𝐛𝐫𝐞𝐚𝐤 𝐨𝐧𝐥𝐲 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭\n\n𝟑𝟏 𝐎𝐩𝐞𝐧 ➣ 𝐄𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟑𝟐 𝐈𝐜𝐨𝐧➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐜𝐨𝐧\n\n𝟑𝟑 𝐒𝐮𝐛𝐣𝐞𝐜𝐭➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐬𝐮𝐛𝐣𝐞𝐜𝐭\n\n𝟑𝟒 𝐃𝐞𝐬𝐜➣ 𝐆𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧\n\n𝟑𝟓 𝐋𝐞𝐚𝐯𝐞➣ 𝐓𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐬 𝐛𝐨𝐫𝐢𝐧𝐠 ,𝐭𝐢𝐦𝐞 𝐟𝐨𝐫 𝐛𝐨𝐭 𝐭𝐨 𝐥𝐞𝐚𝐯𝐞\n\n𝟑𝟔 𝐓𝐚𝐠𝐚𝐥𝐥 ➣ 𝐓𝐚𝐠 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭\n\n𝟑𝟕 𝐇𝐢𝐝𝐞𝐭𝐚𝐠➣ 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐬𝐨𝐦𝐞𝐨𝐧𝐞 𝐡𝐚𝐬 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐭𝐨 𝐬𝐚𝐲\n\n𝟑𝟖 𝐑𝐞𝐯𝐨𝐤𝐞 ➣ 𝐑𝐞𝐬𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤`
+let vaa = `𝟏 Owner➣ 𝐆𝐞𝐭 Arlodragon  𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭➣ 𝐒𝐞𝐧𝐝𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐚𝐥𝐥 𝐠𝐫𝐨𝐮𝐩𝐬\n\n𝟑 𝐉𝐨𝐢𝐧➣ 𝐭𝐚𝐠 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤 𝐰𝐢𝐭𝐡 𝐣𝐨𝐢𝐧\n\n𝟒 𝐛𝐨𝐭𝐩𝐩➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐛𝐨𝐭𝐬 𝐚𝐜𝐜𝐨𝐮𝐧𝐭 𝐝𝐩\n\n𝟓 𝐁𝐥𝐨𝐜𝐤➣ 𝐁𝐥𝐨𝐜𝐤 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬\n\n𝟔 𝐊𝐢𝐥𝐥➣ 𝐊𝐢𝐥𝐥𝐬 𝐠𝐫𝐨𝐮𝐩 𝐢𝐧 𝐬𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝟕 𝐔𝐧𝐛𝐥𝐨𝐜𝐤➣ 𝐆𝐢𝐯𝐞 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬 𝐚 𝐬𝐞𝐜𝐨𝐧𝐝 𝐜𝐡𝐚𝐧𝐜𝐞\n\n𝟖 𝐒𝐞𝐭𝐯𝐚𝐫➣ 𝐒𝐞𝐭 𝐯𝐚𝐫𝐬 𝐢𝐧 𝐡𝐞𝐫𝐨𝐤𝐮\n\n𝟗 𝐒𝐭𝐢𝐜𝐤𝐞𝐫➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐩𝐡𝐨𝐭𝐨 𝐨𝐫 𝐚 𝐬𝐡𝐨𝐫𝐭 𝐯𝐢𝐝𝐞𝐨 𝐭𝐨 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫\n\n𝟏𝟎 𝐓𝐨𝐢𝐦𝐠➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐭𝐨 𝐚 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟏 𝐏𝐥𝐚𝐲➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟐 𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠➣ 𝐠𝐞𝐭 𝐭𝐡𝐞 𝐭𝐢𝐭𝐥𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟑 𝐘𝐭𝐬 ➣ 𝐆𝐞𝐭 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐯𝐢𝐝𝐞𝐨𝐬\n\n𝟏𝟒 𝐌𝐨𝐯𝐢𝐞➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐦𝐨𝐯𝐢𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬\n\n𝟏𝟓 𝐌𝐢𝐱➣ 𝐂𝐨𝐦𝐛𝐢𝐧𝐞𝐬 +𝟐𝐞𝐦𝐨𝐣𝐢𝐬\n\n𝟏𝟔 𝐀𝐢-𝐢𝐦𝐠➣ 𝐆𝐞𝐭 𝐚𝐧 𝐀𝐢 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟕 𝐆𝐩𝐭 ➣ 𝐇𝐞𝐫𝐞 𝐭𝐨 𝐚𝐧𝐬𝐰𝐞𝐫 𝐲𝐨𝐮𝐫 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬\n\n𝟏𝟖 𝐃𝐩➣ 𝐆𝐞𝐭𝐬 𝐚 𝐩𝐞𝐫𝐬𝐨𝐧 𝐝𝐩\n\n𝟏𝟗 𝐒𝐩𝐞𝐞𝐝 ➣ 𝐂𝐡𝐞𝐜𝐤𝐬 𝐛𝐨𝐭𝐬 𝐬𝐩𝐞𝐞𝐝\n\n𝟐𝟎 𝐀𝐥𝐢𝐯𝐞➣ 𝐂𝐡𝐞𝐜𝐤 𝐰𝐡𝐞𝐭𝐡𝐞𝐫 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐢𝐬 𝐬𝐭𝐢𝐥𝐥 𝐤𝐢𝐜𝐤𝐢𝐧𝐠\n\n𝟐𝟏 𝐑𝐮𝐧𝐭𝐢𝐦𝐞➣ 𝐖𝐡𝐞𝐧 𝐝𝐢𝐝 𝐛𝐨𝐭 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐧𝐠\n\n𝟐𝟐 𝐒𝐜𝐫𝐢𝐩𝐭➣ 𝐆𝐞𝐭 𝐛𝐨𝐭 𝐬𝐜𝐫𝐢𝐩𝐭\n\n𝟐𝟑 𝐎𝐰𝐧𝐞𝐫  ➣ 𝐆𝐞𝐭 𝐨𝐰𝐧𝐞𝐫(𝐬) 𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐𝟒 𝐕𝐚𝐫𝐬 ➣ 𝐒𝐞𝐞 𝐚𝐥𝐥 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬\n\n𝟐𝟓 𝐏𝐫𝐨𝐦𝐨𝐭𝐞➣ 𝐆𝐢𝐯𝐞𝐬 𝐨𝐧𝐞 𝐚𝐝𝐦𝐢𝐧 𝐫𝐨𝐥𝐞\n\n𝟐𝟔 𝐃𝐞𝐦𝐨𝐭𝐞➣ 𝐃𝐞𝐦𝐨𝐭𝐞𝐬 𝐟𝐫𝐨𝐦 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧 𝐭𝐨 𝐚 𝐦𝐞𝐦𝐛𝐞𝐫\n\n𝟐𝟕 𝐃𝐞𝐥𝐞𝐭𝐞➣ 𝐃𝐞𝐥𝐞𝐭𝐞 𝐚 𝐦𝐞𝐬𝐬𝐚𝐠𝐞\n\n𝟐𝟖 𝐑𝐞𝐦𝐨𝐯𝐞/𝐤𝐢𝐜𝐤➣ 𝐊𝐢𝐜𝐤 𝐭𝐡𝐚𝐭 𝐭𝐞𝐫𝐫𝐨𝐫𝐢𝐬𝐭 𝐟𝐫𝐨𝐦 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟐𝟗 𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬➣ 𝐆𝐞𝐭 𝐟𝐨𝐫𝐞𝐢𝐠𝐧 𝐧𝐮𝐦𝐛𝐞𝐫𝐬\n\n𝟑𝟎 𝐂𝐥𝐨𝐬𝐞➣ 𝐓𝐢𝐦𝐞 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐞𝐦𝐛𝐞𝐫𝐬 𝐭𝐨 𝐭𝐚𝐤𝐞 𝐚 𝐛𝐫𝐞𝐚𝐤 𝐨𝐧𝐥𝐲 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭\n\n𝟑𝟏 𝐎𝐩𝐞𝐧 ➣ 𝐄𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟑𝟐 𝐈𝐜𝐨𝐧➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐜𝐨𝐧\n\n𝟑𝟑 𝐒𝐮𝐛𝐣𝐞𝐜𝐭➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐬𝐮𝐛𝐣𝐞𝐜𝐭\n\n𝟑𝟒 𝐃𝐞𝐬𝐜➣ 𝐆𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧\n\n𝟑𝟓 𝐋𝐞𝐚𝐯𝐞➣ 𝐓𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐬 𝐛𝐨𝐫𝐢𝐧𝐠 ,𝐭𝐢𝐦𝐞 𝐟𝐨𝐫 𝐛𝐨𝐭 𝐭𝐨 𝐥𝐞𝐚𝐯𝐞\n\n𝟑𝟔 𝐓𝐚𝐠𝐚𝐥𝐥 ➣ 𝐓𝐚𝐠 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭\n\n𝟑𝟕 𝐇𝐢𝐝𝐞𝐭𝐚𝐠➣ 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐬𝐨𝐦𝐞𝐨𝐧𝐞 𝐡𝐚𝐬 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐭𝐨 𝐬𝐚𝐲\n\n𝟑𝟖 𝐑𝐞𝐯𝐨𝐤𝐞 ➣ 𝐑𝐞𝐬𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤`
 reply(vaa)
 break;
 
@@ -3456,13 +3456,13 @@ if (!m.quoted) return m.reply("quote a viewonce message eh")
     if (quotedMessage.imageMessage) {
       let imageCaption = quotedMessage.imageMessage.caption;
       let imageUrl = await client.downloadAndSaveMediaMessage(quotedMessage.imageMessage);
-      client.sendMessage(m.chat, { image: { url: imageUrl }, caption: `MBRAZIL NJR👾!\n${imageCaption}`}, { quoted: m });
+      client.sendMessage(m.chat, { image: { url: imageUrl }, caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾!\n${imageCaption}`}, { quoted: m });
     }
 
     if (quotedMessage.videoMessage) {
       let videoCaption = quotedMessage.videoMessage.caption;
       let videoUrl = await client.downloadAndSaveMediaMessage(quotedMessage.videoMessage);
-      client.sendMessage(m.chat, { video: { url: videoUrl }, caption: `MBRAZIL NJR👾!\n${videoCaption}`}, { quoted: m });
+      client.sendMessage(m.chat, { video: { url: videoUrl }, caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾!\n${videoCaption}`}, { quoted: m });
     }
       }
 	break;
@@ -3477,13 +3477,13 @@ if (!m.quoted) return m.reply("quote a viewonce message eh")
     if (quotedMessage.imageMessage) {
       let imageCaption = quotedMessage.imageMessage.caption;
       let imageUrl = await client.downloadAndSaveMediaMessage(quotedMessage.imageMessage);
-      client.sendMessage(client.user.id, { image: { url: imageUrl }, caption: `MBRAZIL NJR👾!\n${imageCaption}`}, { quoted: m });
+      client.sendMessage(client.user.id, { image: { url: imageUrl }, caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾!\n${imageCaption}`}, { quoted: m });
     }
 
     if (quotedMessage.videoMessage) {
       let videoCaption = quotedMessage.videoMessage.caption;
       let videoUrl = await client.downloadAndSaveMediaMessage(quotedMessage.videoMessage);
-      client.sendMessage(client.user.id, { video: { url: videoUrl }, caption: `MBRAZIL NJR👾!\n${videoCaption}`}, { quoted: m });
+      client.sendMessage(client.user.id, { video: { url: videoUrl }, caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾!\n${videoCaption}`}, { quoted: m });
     }
       }
 	break;
@@ -3654,10 +3654,10 @@ break;
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: 'MBRAZIL NJR👾',
-                            body:'https://chat.whatsapp.com/LtOqFdr5czO2PWkIZQKCqM',
+                            title: '𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾',
+                            body: 'https://chat.whatsapp.com/I5xIShFtrk43tfaWEmppNH',
                             thumbnailUrl: 'https://i.imgur.com/jKO8anU.jpeg',
-                            sourceUrl: 'https://chat.whatsapp.com/LtOqFdr5czO2PWkIZQKCqM',
+                            sourceUrl: 'https://chat.whatsapp.com/I5xIShFtrk43tfaWEmppNH',
                             mediaType: 1,
                             renderLargerThumbnail: true
                         }
@@ -3794,7 +3794,7 @@ if (!text) return m.reply("No emojis provided ? ")
    fs.unlinkSync(media); 
    if (err) throw err 
    let buffer = fs.readFileSync(mokaya); 
-   client.sendMessage(m.chat, { image: buffer, caption: `MBRAZIL NJR👾`}, { quoted: m }) 
+   client.sendMessage(m.chat, { image: buffer, caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾`}, { quoted: m }) 
    fs.unlinkSync(mokaya); 
     }); 
     } 
@@ -3873,7 +3873,7 @@ if (!text) return m.reply("No emojis provided ? ")
          let res = groups.map(v => v.id) 
          reply(` Broadcasting in ${res.length} Group Chat, in ${res.length * 1.5} seconds`) 
          for (let i of res) { 
-             let txt = `MBRAZIL NJR👾 𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}` 
+             let txt = `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾 𝗕𝗥𝗢𝗔𝗗𝗖𝗔𝗦𝗧 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}` 
              await client.sendMessage(i, { 
                  image: { 
                      url: "https://i.imgur.com/jKO8anU.jpeg" 
@@ -3935,7 +3935,7 @@ case "block": {
  if (!Owner) throw NotOwner; 
  if (!m.quoted) throw `𝗧𝗮𝗴 𝘀𝗼𝗺𝗲𝗼𝗻𝗲!`  
  let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
-	 if (users == "255676787885@s.whatsapp.net") return m.reply("𝗜 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗹𝗼𝗰𝗸 𝗺𝘆 𝗢𝘄𝗻𝗲𝗿 😡");
+	 if (users == "254114660061@s.whatsapp.net") return m.reply("𝗜 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗹𝗼𝗰𝗸 𝗺𝘆 𝗢𝘄𝗻𝗲𝗿 😡");
 		  if (users  == client.decodeJid(client.user.id)) throw '𝗜 𝗰𝗮𝗻𝗻𝗼𝘁 𝗯𝗹𝗼𝗰𝗸 𝗺𝘆𝘀𝗲𝗹𝗳 𝗶𝗱𝗶𝗼𝘁 😡';
  await client.updateBlockStatus(users, 'block'); 
  m.reply (`𝗕𝗹𝗼𝗰𝗸𝗲𝗱 𝘀𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆!`); 
