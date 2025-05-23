@@ -27,7 +27,7 @@ const menu = process.env.MENU_TYPE || 'VIDEO';
 const DevRaven = dev.split(",");
 const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
 const bad = process.env.BAD_WORD || 'fuck,ku';
-const autoread = process.env.AUTOREAD || 'TRUE';
+const autoread = process.env.AUTOREAD || 'FALSE';
 const antidel = process.env.ANTIDELETE || 'FALSE';
 
 const admin = process.env.ADMIN_MSG || '𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗿𝗲𝘀𝗲𝗿𝘃𝗲𝗱 𝗳𝗼𝗿 Mr-heisme 🎭!';
