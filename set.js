@@ -39,7 +39,7 @@ const wapresence = process.env.WA_PRESENCE || 'typing,recording';
 const antilink = process.env.ANTILINK || 'TRUE';
 const mycode = process.env.CODE || '254';
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
-const port = process.env.PORT || 1000000000;
+const port = process.env.PORT || 100000000;
 const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
 
 module.exports = {
