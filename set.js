@@ -6,7 +6,7 @@ const sessionName = 'session';
 const session = process.env.SESSION || '';
 const autobio = process.env.AUTOBIO || 'FALSE';
 const autolike = process.env.AUTOLIKE_STATUS || 'TRUE';
-const autoviewstatus = process.env.AUTOVIEW_STATUS || 'FALSE';
+const autoviewstatus = process.env.AUTOVIEW_STATUS || 'TRUE';
 const welcomegoodbye = process.env.WELCOMEGOODBYE || 'FALSE';
 
 const prefix = process.env.PREFIX || '';
