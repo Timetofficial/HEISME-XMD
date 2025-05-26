@@ -5,7 +5,7 @@ There's no need to configure this if you're deploying via Heroku — just set th
 const sessionName = 'session';
 const session = process.env.SESSION || '';
 const autobio = process.env.AUTOBIO || 'FALSE';
-const autolike = process.env.AUTOLIKE_STATUS || 'TRUE';
+const autolike = process.env.AUTOLIKE_STATUS || 'FALSE';
 const autoviewstatus = process.env.AUTOVIEW_STATUS || 'TRUE';
 const welcomegoodbye = process.env.WELCOMEGOODBYE || 'FALSE';
 
@@ -39,7 +39,7 @@ const wapresence = process.env.WA_PRESENCE || 'typing';
 const antilink = process.env.ANTILINK || 'TRUE';
 const mycode = process.env.CODE || '254';
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 1300609;
 const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
 
 module.exports = {
