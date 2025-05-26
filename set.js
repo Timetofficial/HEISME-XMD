@@ -23,7 +23,7 @@ const packname = process.env.STICKER_PACKNAME || 'Mr-heisme 🎭';
 const antitag = process.env.ANTITAG || 'TRUE';
 const dev = process.env.DEV || '255744528835';
 
-const menu = process.env.MENU_TYPE || 'image';
+const menu = process.env.MENU_TYPE || 'VIDEO';
 const DevRaven = dev.split(",");
 const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
 const bad = process.env.BAD_WORD || 'fuck,ku';
