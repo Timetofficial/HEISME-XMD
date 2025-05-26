@@ -16,7 +16,7 @@ const gptdm = process.env.GPT_INBOX || 'FALSE';
 const mode = process.env.MODE || 'PUBLIC';
 const anticall = process.env.AUTOREJECT_CALL || 'TRUE';
 
-const botname = process.env.BOTNAME || 'Mr-heisme-AI';
+const botname = process.env.BOTNAME || 'DRAGON-AI';
 const antibot = process.env.ANTIBOT || 'FALSE';
 const author = process.env.STICKER_AUTHOR ||'Mr-heisme 🎭';
 const packname = process.env.STICKER_PACKNAME || 'Mr-heisme 🎭';
@@ -37,9 +37,9 @@ const NotOwner = process.env.NOT_OWNER_MSG || '𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗺
 
 const wapresence = process.env.WA_PRESENCE || 'typing';
 const antilink = process.env.ANTILINK || 'TRUE';
-const mycode = process.env.CODE || '254';
+const mycode = process.env.CODE || '255';
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
-const port = process.env.PORT || 1300609;
+const port = process.env.PORT || 8090;
 const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
 
 module.exports = {
