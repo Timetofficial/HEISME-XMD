@@ -21,7 +21,7 @@ const antibot = process.env.ANTIBOT || 'FALSE';
 const author = process.env.STICKER_AUTHOR ||'Mr-heisme 🎭';
 const packname = process.env.STICKER_PACKNAME || 'Mr-heisme 🎭';
 const antitag = process.env.ANTITAG || 'TRUE';
-const dev = process.env.DEV || '255744528835';
+const dev = process.env.DEV || '255652248835';
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
 const DevRaven = dev.split(",");
@@ -39,7 +39,7 @@ const wapresence = process.env.WA_PRESENCE || 'typing';
 const antilink = process.env.ANTILINK || 'TRUE';
 const mycode = process.env.CODE || '254';
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
-const port = process.env.PORT || 9080;
+const port = process.env.PORT || 1300609;
 const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
 
 module.exports = {
