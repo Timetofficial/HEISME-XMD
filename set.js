@@ -27,7 +27,7 @@ const menu = process.env.MENU_TYPE || 'VIDEO';
 const DevRaven = dev.split(",");
 const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
 const bad = process.env.BAD_WORD || 'fuck,ku';
-const autoread = process.env.AUTOREAD || 'TRUE';
+const autoread = process.env.AUTOREAD || 'FALSE';
 const antidel = process.env.ANTIDELETE || 'FALSE';
 
 const admin = process.env.ADMIN_MSG || '𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗿𝗲𝘀𝗲𝗿𝘃𝗲𝗱 𝗳𝗼𝗿 Mr-heisme 🎭!';
@@ -39,7 +39,7 @@ const wapresence = process.env.WA_PRESENCE || 'typing';
 const antilink = process.env.ANTILINK || 'TRUE';
 const mycode = process.env.CODE || '255';
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
-const port = process.env.PORT || 8090;
+const port = process.env.PORT || 9123;
 const antilinkall = process.env.ANTILINK_ALL || 'TRUE';
 
 module.exports = {
