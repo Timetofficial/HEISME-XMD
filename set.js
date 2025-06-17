@@ -13,7 +13,7 @@ const prefix = process.env.PREFIX || '';
 const appname = process.env.APP_NAME || '';
 const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'FALSE';
-const mode = process.env.MODE || 'PRIVATE';
+const mode = process.env.MODE || 'PUBLIC';
 const anticall = process.env.AUTOREJECT_CALL || 'TRUE';
 
 const botname = process.env.BOTNAME || 'DRAGON-AI';
@@ -21,9 +21,9 @@ const antibot = process.env.ANTIBOT || 'FALSE';
 const author = process.env.STICKER_AUTHOR ||'Mr-heisme 🎭';
 const packname = process.env.STICKER_PACKNAME || 'Mr-heisme 🎭';
 const antitag = process.env.ANTITAG || 'TRUE';
-const dev = process.env.DEV || '255744528835';
+const dev = process.env.DEV || '255694146573';
 
-const menu = process.env.MENU_TYPE || 'IMAGE';
+const menu = process.env.MENU_TYPE || 'VIDEO';
 const DevRaven = dev.split(",");
 const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
 const bad = process.env.BAD_WORD || 'fuck,ku';
